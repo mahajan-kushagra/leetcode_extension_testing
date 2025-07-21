@@ -15,7 +15,7 @@ public:
         }
         return result;
     }
-    /* string makeFancyString2(string s) {
+    /* string makeFancyS tring2(string s) {
         int offset = 0;
         bool same01, same12;
         for (int i = 2; i < s.size() - offset;) {
