@@ -1,6 +1,4 @@
-class Solution {
-public:
-    void moveZeroes(vector<int>& nums) {
+void moveZeroes(vector<int>& nums) {
         short offset= 0, lastIndex= 0;
         for(short i= 0; i < nums.size(); i++){
             if(!nums[i]){
@@ -13,4 +11,3 @@ public:
         while(lastIndex < nums.size())
             nums[lastIndex++]= 0;
     }
-};
